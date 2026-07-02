@@ -9,12 +9,16 @@
     <lastmod>2026-07-02T23:11:30.903Z</lastmod>
   </url>
   <url>
+    <loc>https://your-website-url.example.com/index.html</loc>
+    <lastmod>2026-07-02T22:28:08.317Z</lastmod>
+  </url>
+  <url>
     <loc>https://your-website-url.example.com/about.html</loc>
     <lastmod>2026-07-02T22:28:08.319Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-07-02T22:28:08.317Z</lastmod>
+    <loc>https://your-website-url.example.com/posts/exaonepath/index.html</loc>
+    <lastmod>2026-07-02T23:31:39.980Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>

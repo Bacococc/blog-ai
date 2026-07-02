@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/notebooklm/index.html",
+    "href": "posts/notebooklm/index.html",
+    "title": "나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!",
+    "section": "",
+    "text": "수많은 정보가 쏟아지는 시대, 여러분은 신뢰할 수 있는 진짜 지식을 어떻게 선별하고 학습하고 계시나요? 혹시 유용하다고 소문난 보고서나 책을 수집하는 데만 시간을 다 보내고, 정작 핵심은 읽지 못한 채 정보 피로감만 느끼고 계시진 않나요?\n구글의 개인화 AI 연구 도구인 NotebookLM이 이러한 문제를 완벽하게 해결해 줄 매력적인 신기능을 선보였습니다. 바로 전문가와 신뢰도 높은 기관들이 엄선한 자료 세트를 즉시 활용해 볼 수 있는 ‘Featured Notebooks(추천 노트북)’ 기능입니다. 이제 클릭 한 번으로 고품질의 지식 저장소에 접속하여 능동적인 학습을 시작할 수 있습니다. 이번 글에서는 이 기능의 주요 특징과 구체적인 활용법을 알아보겠습니다."
+  },
+  {
+    "objectID": "posts/notebooklm/index.html#핵심-요약-featured-notebooks의-3가지-핵심-포인트",
+    "href": "posts/notebooklm/index.html#핵심-요약-featured-notebooks의-3가지-핵심-포인트",
+    "title": "나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!",
+    "section": "📌 핵심 요약: Featured Notebooks의 3가지 핵심 포인트",
+    "text": "📌 핵심 요약: Featured Notebooks의 3가지 핵심 포인트\n\n검증된 고품질 소스의 즉각적인 활용: 구글과 협력한 저자, 언론사, 연구원들이 직접 엄선한 자료 세트를 바탕으로, 정보 수집 단계를 건너뛰고 신뢰도 높은 정보 환경에서 즉시 연구를 시작할 수 있습니다.\nRead-Only 특성과 스마트한 우회 편집: 추천 노트북은 원본 소스를 편집할 수 없는 읽기 전용 상태로 제공되지만, ’Export to Docs(Google 문서로 내보내기)’나 소스 수동 재구축을 통해 자신만의 맞춤형 버전으로 변형하여 사용할 수 있습니다.\n입체적 학습(Deep Learning)을 돕는 인지 모델: AI 팟캐스트(Audio Overviews), 마인드맵, 챗봇 대화 등을 유기적으로 조합하여 복잡한 지식을 빠르고 입체적으로 내재화하는 훌륭한 학습 경로를 제공합니다."
+  },
+  {
+    "objectID": "posts/notebooklm/index.html#상세-설명-어떻게-활용하고-무엇이-다를까",
+    "href": "posts/notebooklm/index.html#상세-설명-어떻게-활용하고-무엇이-다를까",
+    "title": "나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!",
+    "section": "🔍 상세 설명: 어떻게 활용하고, 무엇이 다를까?",
+    "text": "🔍 상세 설명: 어떻게 활용하고, 무엇이 다를까?\n\n1. 클릭 한 번으로 만나는 검증된 큐레이션 소스\n과거에는 NotebookLM을 쓰기 위해 개인이 직접 PDF를 찾고 웹 링크를 긁어모아야 했습니다. 하지만 이제는 잘 정제된 고품질 지식 저장소가 준비되어 있습니다. 구글은 신뢰받는 파트너사들과 손을 잡고 다음과 같은 다양한 주제의 노트북을 기본 탑재했습니다. * 건강/의학: 에릭 탑(Eric Topol) 박사의 건강 및 수명에 관한 조언 (Super Agers) * 트렌드/예측: The Economist의 2025년 글로벌 예측 분석, Our World In Data의 인류 웰빙 트렌드 * 문학/교양: 윌리엄 셰익스피어 전집 (The Complete Works of William Shakespeare) * 실용/비즈니스: 글로벌 기업들의 Q1 실적 트래커, Arthur C. Brooks의 The Atlantic 칼럼 기반 인생 조언\n이처럼 사용자는 준비된 텍스트 속에서 NotebookLM의 지능형 요약 및 질의응답 기능이 얼마나 정교하게 작동하는지 즉각 테스트해 볼 수 있습니다. (참고 자료: Google Blog - NotebookLM Update (December 2024))\n\n\n\n전문가들의 책, 의학 학술지, 비즈니스 리포트 등이 깔끔하게 큐레이션되어 정리된 데이터셋\n\n\n\n\n2. 안전한 Read-Only 템플릿과 우회 편집 팁\nFeatured Notebooks는 여러 사용자가 공용으로 탐색하는 전시품과 같기 때문에, 사용자가 원본 소스를 직접 삭제하거나 구조를 편집하는 것은 불가능한 읽기 전용(Read-only) 상태입니다.\n자신만의 맞춤형 연구 노트북으로 발전시키고 싶다면 다음의 팁을 활용해 보세요. * Google 문서로 내보내기(Export to Docs): 추천 노트북을 학습하면서 생성한 AI 요약 노트나 아이디어 카드는 우측 상단 메뉴의 ’Export to Docs’를 통해 즉시 Google 문서로 내보내 편집 및 소장이 가능합니다. * 수동 재구축: 추천 노트북에 포함된 핵심 출처 링크나 제목을 복사하여, 나의 개인 대시보드에 새 노트북을 생성하고 업로드하면 편집 권한이 온전히 부여된 나만의 노트북을 만들 수 있습니다. (참고 자료: Reddit NotebookLM Community Discussion)\n\n\n\n템플릿 자료를 구글 문서(Google Docs) 등 외부 클라우드로 스마트하게 내보내어 가공하는 워크플로우\n\n\n\n\n3. 오디오와 챗봇을 통한 입체적인 ‘인지 학습 모델’\n학습 기술 전문가들은 이번 Featured Notebooks의 등장이 단순한 샘플 추가 이상의 가치가 있다고 말합니다. NotebookLM의 다채로운 생성 도구들을 조합하여 가장 효과적인 학습 경로를 보여주는 ‘인지 학습 모델(cognitive models)’ 역할을 하기 때문입니다.\n전문가들이 추천하는 3단계 딥 러닝 전략은 다음과 같습니다. 1. 1단계 (독자 이해): 추천 노트북에 제공된 고품질 원본 소스 문서들을 먼저 꼼꼼히 읽어보며 스스로 맥락을 정리합니다. 2. 2단계 (맥락 재구성): NotebookLM의 Audio Overviews(AI 생성 팟캐스트)를 활성화하여, 두 명의 AI 호스트가 대화식으로 정리해 주는 대화형 오디오를 들으며 중요한 논점을 귀로 학습합니다. 3. 3단계 (자가 검증): AI 챗봇에 학습 도중 생긴 의문점을 질문하거나 자가 테스트(Self-testing) 질문을 만들어 달라고 요청하여 내가 제대로 이해했는지 능동적으로 검증합니다. (참고 자료: Ditch That Textbook - NotebookLM Guides & Medium - Deep Learning with NotebookLM)\n\n\n\nAI 생성 오디오 팟캐스트와 챗봇, 마인드맵을 종합적으로 활용해 입체적으로 학습하는 모습"
+  },
+  {
+    "objectID": "posts/notebooklm/index.html#마무리-지식-공유와-ai-학습의-미래-전망",
+    "href": "posts/notebooklm/index.html#마무리-지식-공유와-ai-학습의-미래-전망",
+    "title": "나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!",
+    "section": "💡 마무리: 지식 공유와 AI 학습의 미래 전망",
+    "text": "💡 마무리: 지식 공유와 AI 학습의 미래 전망\nNotebookLM의 Featured Notebooks 기능은 단순히 유용한 기능의 추가를 넘어, 우리가 외부의 방대한 전문 지식을 인공지능을 매개로 어떻게 빠르고 완벽하게 습득할 수 있는지 그 미래 지표를 보여줍니다.\n앞으로 신뢰도 높은 대학, 연구소, 혹은 기업들이 자신들의 방대한 지식 아카이브를 이러한 ‘추천 노트북’ 형태로 대중에게 배포하고, 사용자들은 이를 개인 맞춤형 AI 비서와 상호작용하며 학습하는 ‘지식 유통의 민주화’가 가속화될 것입니다. 정보의 양에 압도당하기보다, 정제된 지식의 바다에 뛰어들어 AI와 함께 한 단계 깊은 통찰력을 길러보는 것은 어떨까요? 지금 바로 NotebookLM에 접속하여 첫 번째 추천 노트북을 열어보세요!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’\n\n\n\nAI\n\nMedical\n\nLG\n\nEXAONE\n\n\n\n\n\n\n\n\n\nJul 3, 2026\n\n\nHyojin\n\n\n\n\n\n\n\n\n\n\n\n\n나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!\n\n\n\nAI\n\nNotebookLM\n\nGoogle\n\n\n\n\n\n\n\n\n\nJul 3, 2026\n\n\nHyojin\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 3, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/exaonepath/index.html",
+    "href": "posts/exaonepath/index.html",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "",
+    "text": "암 진단을 받은 환자와 가족들에게 가장 고통스러운 시간 중 하나는 바로 ’기다림’입니다. 어떤 항암제가 맞을지, 어떤 유전자 변이가 있는지 알아내기 위한 정밀 유전자 검사(NGS 등)는 보통 결과가 나오기까지 최소 2주에서 길게는 한 달까지 소요되기도 합니다. 그사이 암 세포는 자라나고, 환자의 불안감은 극에 달합니다.\n그런데 \"단 1분 만에 조직 이미지 분석을 통해 유전자 변이를 정확히 예측할 수 있다면 어떨까요?\"\nLG AI연구원이 개발한 의료 특화 AI 모델 ‘엑사원 패스(EXAONE Path)’가 바로 이 질문에 대한 해답을 제시하고 있습니다. 기존의 의료 패러다임을 바꿀 엑사원 패스는 어떻게 2주의 시간을 1분으로 단축시킬 수 있었을까요?\n\n\n\n암 진단 프로세스 비교: 전통적 DNA 시퀀싱 vs 실시간 AI 디지털 병리 분석"
+  },
+  {
+    "objectID": "posts/exaonepath/index.html#도입-암-진단을-위한-피-마르는-2주의-기다림-1분으로-줄일-수-있다면",
+    "href": "posts/exaonepath/index.html#도입-암-진단을-위한-피-마르는-2주의-기다림-1분으로-줄일-수-있다면",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "",
+    "text": "암 진단을 받은 환자와 가족들에게 가장 고통스러운 시간 중 하나는 바로 ’기다림’입니다. 어떤 항암제가 맞을지, 어떤 유전자 변이가 있는지 알아내기 위한 정밀 유전자 검사(NGS 등)는 보통 결과가 나오기까지 최소 2주에서 길게는 한 달까지 소요되기도 합니다. 그사이 암 세포는 자라나고, 환자의 불안감은 극에 달합니다.\n그런데 \"단 1분 만에 조직 이미지 분석을 통해 유전자 변이를 정확히 예측할 수 있다면 어떨까요?\"\nLG AI연구원이 개발한 의료 특화 AI 모델 ‘엑사원 패스(EXAONE Path)’가 바로 이 질문에 대한 해답을 제시하고 있습니다. 기존의 의료 패러다임을 바꿀 엑사원 패스는 어떻게 2주의 시간을 1분으로 단축시킬 수 있었을까요?\n\n\n\n암 진단 프로세스 비교: 전통적 DNA 시퀀싱 vs 실시간 AI 디지털 병리 분석"
+  },
+  {
+    "objectID": "posts/exaonepath/index.html#핵심-요약-엑사원-패스exaone-path의-3가지-핵심-강점",
+    "href": "posts/exaonepath/index.html#핵심-요약-엑사원-패스exaone-path의-3가지-핵심-강점",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "2. 핵심 요약: 엑사원 패스(EXAONE Path)의 3가지 핵심 강점",
+    "text": "2. 핵심 요약: 엑사원 패스(EXAONE Path)의 3가지 핵심 강점\n\n① 검사 시간의 혁신적 단축 (2주 → 1분 이내)\n기존에는 환자의 암 조직을 떼어내어 복잡한 유전자 분석(NGS) 장비를 거쳐야만 유전자 변이 여부를 알 수 있었습니다. 하지만 엑사원 패스는 생검 조직을 스캔한 병리 조직 이미지(Whole Slide Image, WSI)를 입력받아 AI가 시각 정보를 분석함으로써 1분 이내에 유전자 변이를 찾아냅니다.\n\n\n② 세계 최고 수준(SOTA)의 진단 및 예측 정확도\n단순히 속도만 빠른 것이 아닙니다. 엑사원 패스는 최신 버전(2.0) 기준으로 하버드대, 마이크로소프트 등 글로벌 빅테크 및 연구기관들이 내놓은 의료 AI 모델들과의 벤치마크 테스트에서 우수한 성적을 거두며 세계 최고 수준(SOTA, State-of-the-Art)의 예측 정확도를 입증했습니다.\n\n\n③ 유기적인 스케일 분석 및 멀티오믹스 연계\n의료 이미지 분석의 고질적 난제인 ‘특징 붕괴(Feature Collapse)’를 해결했습니다. 세포 수준의 미세한 패치 단위부터 전체 장기 크기의 슬라이드 수준까지 정보를 손실 없이 종합 학습하는 기술을 보유하고 있으며, 유전체 데이터(멀티오믹스)와의 융합 분석을 수행합니다."
+  },
+  {
+    "objectID": "posts/exaonepath/index.html#상세-설명-엑사원-패스가-이끄는-의료-ai-혁신의-깊이",
+    "href": "posts/exaonepath/index.html#상세-설명-엑사원-패스가-이끄는-의료-ai-혁신의-깊이",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "3. 상세 설명: 엑사원 패스가 이끄는 의료 AI 혁신의 깊이",
+    "text": "3. 상세 설명: 엑사원 패스가 이끄는 의료 AI 혁신의 깊이\n\n■ 왜 ’1분 예측’이 가능하며, 이것이 왜 중요할까요?\n전형적인 유전자 검사는 고가의 장비와 복잡한 전처리 과정이 필요하며, 검사 비용도 수백만 원에 달합니다. 반면 병리 조직 슬라이드는 암 진단을 위해 기본적으로 제작하는 단계입니다. 엑사원 패스는 이미 제작된 디지털 병리 이미지를 소프트웨어로 분석하기 때문에 별도의 추가 유전자 분석 비용이나 대기 시간 없이, 의사가 모니터를 통해 조직을 확인하는 즉시 예상되는 유전자 변이 정보를 추천해 줄 수 있습니다. 이는 조기 진단율을 획기적으로 끌어올려 치료 골든타임을 확보하는 데 결정적인 기여를 합니다.\n\n\n■ 기술적 차별점: 특징 붕괴 극복과 초고해상도 학습\n병리 조직 이미지는 단 한 장의 용량이 수 기가바이트(GB)에 달하는 초고해상도 이미지입니다. 이를 AI가 학습하기 위해서는 잘게 쪼갠 ‘패치(Patch)’ 단위로 학습해야 하는데, 이 과정에서 전체 조직의 구조적인 맥락 정보가 사라지는 ‘특징 붕괴’ 현상이 발생하곤 했습니다.\nLG AI연구원은 세포 수준의 미세 패턴과 전체 슬라이드의 거시적 형태를 결합하는 독자적인 인코더 기술을 통해 정보를 보존하는 데 성공했습니다. 이를 통해 암세포 주변의 미세환경까지 완벽하게 파악하여 유전자 변이 예측력을 강화했습니다.\n\n\n\n디지털 병리 다중 스케일 분석 개념도 (세포 패치 단위부터 조직, 슬라이드 전체 수준까지 통합)\n\n\n\n\n■ 맞춤형 항암 치료와 글로벌 실증 협력\n엑사원 패스는 단순히 암의 유무를 진단하는 데 그치지 않고, 특정 표적 항암제나 면역 항암제에 환자가 어떻게 반응할지(예후 예측)까지 모델링합니다. 현재 LG AI연구원은 미국 밴더빌트대 메디컬 센터(VUMC) 등 글로벌 최고 수준의 암 전문 연구소들과 실증 연구를 수행하며 임상 적합성을 확인하고 있으며, 글로벌 의료 AI 탑재 생태계(예: NVIDIA MONAI 등)와 긴밀히 연계되어 전 세계 의료진에게 전달되고 있습니다."
+  },
+  {
+    "objectID": "posts/exaonepath/index.html#마무리-정밀-의료와-신약-개발의-게임-체인저로의-비상",
+    "href": "posts/exaonepath/index.html#마무리-정밀-의료와-신약-개발의-게임-체인저로의-비상",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "4. 마무리: 정밀 의료와 신약 개발의 게임 체인저로의 비상",
+    "text": "4. 마무리: 정밀 의료와 신약 개발의 게임 체인저로의 비상\nLG AI연구원의 엑사원 패스는 의료 AI가 단순히 의사의 보조 도구를 넘어, 환자 한 사람 한 사람을 위한 맞춤형 정밀 치료의 나침반 역할을 할 수 있음을 보여줍니다.\n앞으로 엑사원 패스가 탑재된 진단 플랫폼이 널리 보급된다면 중소형 병원에서도 대형 대학병원 수준의 고차원 정밀 진단이 가능해질 것이며, 신약 임상시험 단계에서 특정 후보물질에 잘 반응하는 환자군을 선별하는 데 활용되어 신약 개발 비용과 기간을 대폭 감소시킬 것입니다. 의료 불균형 해소와 헬스케어 패러다임 전환의 중심에 설 엑사원 패스의 행보가 기대됩니다.\n\n\n\n글로벌 네트워크를 활용한 정밀 의료 및 환자 맞춤형 항암 매칭 치료 비전"
+  },
+  {
+    "objectID": "posts/exaonepath/index.html#참고-자료",
+    "href": "posts/exaonepath/index.html#참고-자료",
+    "title": "암 진단 2주에서 1분으로! LG AI연구원의 정밀 의료 혁신, ‘엑사원 패스(EXAONE Path)’",
+    "section": "5. 참고 자료",
+    "text": "5. 참고 자료\n\nLG AI연구원 공식 웹사이트\nLG 그룹 뉴스룸\n메디게이트 뉴스 - 엑사원 패스 2.0 및 의료 AI 성과\n동아일보 IT/과학 기사 - 1분 암 변이 진단 엑사원 패스"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
