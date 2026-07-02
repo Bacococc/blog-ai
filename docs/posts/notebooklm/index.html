@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Hyojin">
+<meta name="dcterms.date" content="2026-07-03">
+
+<title>나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시! – blog</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/"> <i class="bi bi-bluesky" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">나만의 AI 연구소 NotebookLM, 이제 검증된 전문가들의 지식까지 탐색한다: ‘Featured Notebooks’ 출시!</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">NotebookLM</div>
+                <div class="quarto-category">Google</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Hyojin </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 3, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>수많은 정보가 쏟아지는 시대, 여러분은 신뢰할 수 있는 진짜 지식을 어떻게 선별하고 학습하고 계시나요? 혹시 유용하다고 소문난 보고서나 책을 수집하는 데만 시간을 다 보내고, 정작 핵심은 읽지 못한 채 정보 피로감만 느끼고 계시진 않나요?</p>
+<p>구글의 개인화 AI 연구 도구인 <strong>NotebookLM</strong>이 이러한 문제를 완벽하게 해결해 줄 매력적인 신기능을 선보였습니다. 바로 전문가와 신뢰도 높은 기관들이 엄선한 자료 세트를 즉시 활용해 볼 수 있는 <strong>‘Featured Notebooks(추천 노트북)’</strong> 기능입니다. 이제 클릭 한 번으로 고품질의 지식 저장소에 접속하여 능동적인 학습을 시작할 수 있습니다. 이번 글에서는 이 기능의 주요 특징과 구체적인 활용법을 알아보겠습니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gemini-image-1783029929.png" class="img-fluid figure-img"></p>
+<figcaption>NotebookLM Featured Notebooks 소개 및 AI 기반 지식 탐색 개념도</figcaption>
+</figure>
+</div>
+<hr>
+<section id="핵심-요약-featured-notebooks의-3가지-핵심-포인트" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-요약-featured-notebooks의-3가지-핵심-포인트">📌 핵심 요약: Featured Notebooks의 3가지 핵심 포인트</h2>
+<ol type="1">
+<li><strong>검증된 고품질 소스의 즉각적인 활용</strong>: 구글과 협력한 저자, 언론사, 연구원들이 직접 엄선한 자료 세트를 바탕으로, 정보 수집 단계를 건너뛰고 신뢰도 높은 정보 환경에서 즉시 연구를 시작할 수 있습니다.</li>
+<li><strong>Read-Only 특성과 스마트한 우회 편집</strong>: 추천 노트북은 원본 소스를 편집할 수 없는 읽기 전용 상태로 제공되지만, ’Export to Docs(Google 문서로 내보내기)’나 소스 수동 재구축을 통해 자신만의 맞춤형 버전으로 변형하여 사용할 수 있습니다.</li>
+<li><strong>입체적 학습(Deep Learning)을 돕는 인지 모델</strong>: AI 팟캐스트(Audio Overviews), 마인드맵, 챗봇 대화 등을 유기적으로 조합하여 복잡한 지식을 빠르고 입체적으로 내재화하는 훌륭한 학습 경로를 제공합니다.</li>
+</ol>
+<hr>
+</section>
+<section id="상세-설명-어떻게-활용하고-무엇이-다를까" class="level2">
+<h2 class="anchored" data-anchor-id="상세-설명-어떻게-활용하고-무엇이-다를까">🔍 상세 설명: 어떻게 활용하고, 무엇이 다를까?</h2>
+<section id="클릭-한-번으로-만나는-검증된-큐레이션-소스" class="level3">
+<h3 class="anchored" data-anchor-id="클릭-한-번으로-만나는-검증된-큐레이션-소스">1. 클릭 한 번으로 만나는 검증된 큐레이션 소스</h3>
+<p>과거에는 NotebookLM을 쓰기 위해 개인이 직접 PDF를 찾고 웹 링크를 긁어모아야 했습니다. 하지만 이제는 잘 정제된 고품질 지식 저장소가 준비되어 있습니다. 구글은 신뢰받는 파트너사들과 손을 잡고 다음과 같은 다양한 주제의 노트북을 기본 탑재했습니다. * <strong>건강/의학</strong>: 에릭 탑(Eric Topol) 박사의 건강 및 수명에 관한 조언 (<em>Super Agers</em>) * <strong>트렌드/예측</strong>: <em>The Economist</em>의 2025년 글로벌 예측 분석, <em>Our World In Data</em>의 인류 웰빙 트렌드 * <strong>문학/교양</strong>: 윌리엄 셰익스피어 전집 (The Complete Works of William Shakespeare) * <strong>실용/비즈니스</strong>: 글로벌 기업들의 Q1 실적 트래커, Arthur C. Brooks의 <em>The Atlantic</em> 칼럼 기반 인생 조언</p>
+<p>이처럼 사용자는 준비된 텍스트 속에서 NotebookLM의 지능형 요약 및 질의응답 기능이 얼마나 정교하게 작동하는지 즉각 테스트해 볼 수 있습니다. <em>(참고 자료: <a href="https://blog.google/technology/ai/notebooklm-update-december-2024/">Google Blog - NotebookLM Update (December 2024)</a>)</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gemini-image-1783029997.png" class="img-fluid figure-img"></p>
+<figcaption>전문가들의 책, 의학 학술지, 비즈니스 리포트 등이 깔끔하게 큐레이션되어 정리된 데이터셋</figcaption>
+</figure>
+</div>
+</section>
+<section id="안전한-read-only-템플릿과-우회-편집-팁" class="level3">
+<h3 class="anchored" data-anchor-id="안전한-read-only-템플릿과-우회-편집-팁">2. 안전한 Read-Only 템플릿과 우회 편집 팁</h3>
+<p>Featured Notebooks는 여러 사용자가 공용으로 탐색하는 전시품과 같기 때문에, 사용자가 원본 소스를 직접 삭제하거나 구조를 편집하는 것은 불가능한 <strong>읽기 전용(Read-only)</strong> 상태입니다.</p>
+<p>자신만의 맞춤형 연구 노트북으로 발전시키고 싶다면 다음의 팁을 활용해 보세요. * <strong>Google 문서로 내보내기(Export to Docs)</strong>: 추천 노트북을 학습하면서 생성한 AI 요약 노트나 아이디어 카드는 우측 상단 메뉴의 ’Export to Docs’를 통해 즉시 Google 문서로 내보내 편집 및 소장이 가능합니다. * <strong>수동 재구축</strong>: 추천 노트북에 포함된 핵심 출처 링크나 제목을 복사하여, 나의 개인 대시보드에 새 노트북을 생성하고 업로드하면 편집 권한이 온전히 부여된 나만의 노트북을 만들 수 있습니다. <em>(참고 자료: <a href="https://www.reddit.com/r/notebooklm/">Reddit NotebookLM Community Discussion</a>)</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gemini-image-1783030006.png" class="img-fluid figure-img"></p>
+<figcaption>템플릿 자료를 구글 문서(Google Docs) 등 외부 클라우드로 스마트하게 내보내어 가공하는 워크플로우</figcaption>
+</figure>
+</div>
+</section>
+<section id="오디오와-챗봇을-통한-입체적인-인지-학습-모델" class="level3">
+<h3 class="anchored" data-anchor-id="오디오와-챗봇을-통한-입체적인-인지-학습-모델">3. 오디오와 챗봇을 통한 입체적인 ‘인지 학습 모델’</h3>
+<p>학습 기술 전문가들은 이번 Featured Notebooks의 등장이 단순한 샘플 추가 이상의 가치가 있다고 말합니다. NotebookLM의 다채로운 생성 도구들을 조합하여 가장 효과적인 학습 경로를 보여주는 ‘인지 학습 모델(cognitive models)’ 역할을 하기 때문입니다.</p>
+<p>전문가들이 추천하는 3단계 딥 러닝 전략은 다음과 같습니다. 1. <strong>1단계 (독자 이해)</strong>: 추천 노트북에 제공된 고품질 원본 소스 문서들을 먼저 꼼꼼히 읽어보며 스스로 맥락을 정리합니다. 2. <strong>2단계 (맥락 재구성)</strong>: NotebookLM의 <strong>Audio Overviews(AI 생성 팟캐스트)</strong>를 활성화하여, 두 명의 AI 호스트가 대화식으로 정리해 주는 대화형 오디오를 들으며 중요한 논점을 귀로 학습합니다. 3. <strong>3단계 (자가 검증)</strong>: AI 챗봇에 학습 도중 생긴 의문점을 질문하거나 자가 테스트(Self-testing) 질문을 만들어 달라고 요청하여 내가 제대로 이해했는지 능동적으로 검증합니다. <em>(참고 자료: <a href="https://ditchthattextbook.com/">Ditch That Textbook - NotebookLM Guides</a> &amp; <a href="https://medium.com/">Medium - Deep Learning with NotebookLM</a>)</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gemini-image-1783029980.png" class="img-fluid figure-img"></p>
+<figcaption>AI 생성 오디오 팟캐스트와 챗봇, 마인드맵을 종합적으로 활용해 입체적으로 학습하는 모습</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="마무리-지식-공유와-ai-학습의-미래-전망" class="level2">
+<h2 class="anchored" data-anchor-id="마무리-지식-공유와-ai-학습의-미래-전망">💡 마무리: 지식 공유와 AI 학습의 미래 전망</h2>
+<p>NotebookLM의 Featured Notebooks 기능은 단순히 유용한 기능의 추가를 넘어, 우리가 외부의 방대한 전문 지식을 인공지능을 매개로 어떻게 빠르고 완벽하게 습득할 수 있는지 그 미래 지표를 보여줍니다.</p>
+<p>앞으로 신뢰도 높은 대학, 연구소, 혹은 기업들이 자신들의 방대한 지식 아카이브를 이러한 ‘추천 노트북’ 형태로 대중에게 배포하고, 사용자들은 이를 개인 맞춤형 AI 비서와 상호작용하며 학습하는 <strong>‘지식 유통의 민주화’</strong>가 가속화될 것입니다. 정보의 양에 압도당하기보다, 정제된 지식의 바다에 뛰어들어 AI와 함께 한 단계 깊은 통찰력을 길러보는 것은 어떨까요? 지금 바로 NotebookLM에 접속하여 첫 번째 추천 노트북을 열어보세요!</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
